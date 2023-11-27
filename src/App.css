@@ -12,15 +12,15 @@ html {
 }
 
 .dark-theme {
-  --main-heading: #5f99be;
+  --main-heading: #3cff00;
   --para-clr: #fff;
-  --btn-bg-color: #5f99be;
+  --btn-bg-color: #99ff00;
   --btn-text-clr: #fff;
   --bg-clr: #111b20;
 }
 .light-theme {
-  --main-heading: #5f99be;
-  --para-clr: #333;
+  --main-heading: #bf00ff;
+  --para-clr: #000000;
   --btn-bg-color: #111b20;
   --btn-text-clr: #fff;
   --bg-clr: #fff;
@@ -28,6 +28,10 @@ html {
 
 h1 {
   font-size: 5rem;
+  color: var(--main-heading);
+}
+h2 {
+  font-size: 3rem;
   color: var(--main-heading);
 }
 p {
@@ -43,12 +47,6 @@ li {
   font-size: 1.8rem;
   color: var(--btn-bg-color);
 }
-.btn {
-  padding: 1.6rem 3.2rem;
-  background-color: var(--btn-bg-color);
-  color: var(--btn-text-clr);
-}
-
 section {
   max-width: 100%;
   background-color: var(--bg-clr);
@@ -61,7 +59,6 @@ section {
 
 .grid {
   display: grid;
-  gap: 9rem;
 }
 
 .grid-two-column {
@@ -105,5 +102,5 @@ header nav li {
 }
 
 .hero-section-image img {
-  max-height: 60%;
+  max-height: 100%;
 }

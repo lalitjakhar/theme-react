@@ -14,9 +14,7 @@ const Darkmode = () => {
   return (
     <>
       <header>
-        <button type="button" onClick={toggleTheme}>
-          Abcd Efgh Ijkl
-        </button>
+        <h1 onClick={toggleTheme}>Theme React</h1>
         <nav>
           <ul>
             <li>Home</li>
@@ -35,14 +33,39 @@ const Darkmode = () => {
         <section>
           <div className="container grid grid-two-column">
             <div className="hero-section-data">
-              <h1>React Dark Mode</h1>
+              <h2>React Dark Mode</h2>
               <p>
-                fhgfdbhfdfd gfdhsgfdh f fd fds fdshfdfds
-                fdfffghdffghdffghfdfgfhdfhcdc dfhvdbhvbvhcdv cbv dfdf nhdfv
+                In React, a theme is typically used to define the visual style
+                of a web application. Changing the theme involves updating the
+                styles or appearance of various components based on a selected
+                theme. React allows you to implement theme changing in different
+                ways, but one common approach is to use context and state
+                management.Make sure you have a React project set up, either
+                using create-react-app or your preferred method.Create a folder
+                to store your theme-related files. Inside this folder, you can
+                have separate files for different themes.In each theme file,
+                define the styles for your components. These can be simple
+                JavaScript objects containing key-value pairs for CSS
+                properties. In your React application, create a ThemeContext
+                using React.createContext. This context will provide the current
+                theme and a function to change the theme. Implement a
+                ThemeProvider component that will manage the current theme state
+                and provide it to the rest of your application.Wrap your entire
+                application with the ThemeProvider to make the theme available
+                to all components. to store your theme-related files. Inside
+                this folder, you can have separate files for different themes.In
+                each theme file, define the styles for your components. These
+                can be simple JavaScript objects containing key-value pairs for
+                CSS properties. In your React application, create a ThemeContext
+                using React.createContext.
               </p>
             </div>
             <div className="hero-section-image">
-              <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?w=826&t=st=1701066185~exp=1701066785~hmac=2736e7d8a11ed977ce8e5367e6a890220b08ef8dc0c5478c5b72867cccc7eb49" alt="fsdggreeww"></img>
+              <img
+                src="https://www.transparentpng.com/thumb/man/rTkJ7v-man-png-image.png"
+                alt="fsdggreeww"
+                style={{draggable:'false'}}
+              ></img>
             </div>
           </div>
         </section>
