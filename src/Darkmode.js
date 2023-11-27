@@ -40,15 +40,9 @@ const Darkmode = () => {
                 fhgfdbhfdfd gfdhsgfdh f fd fds fdshfdfds
                 fdfffghdffghdffghfdfgfhdfhcdc dfhvdbhvbvhcdv cbv dfdf nhdfv
               </p>
-              <button type="button" className="btn" onClick={toggleTheme}>
-                Toggle Mode
-              </button>
             </div>
             <div className="hero-section-image">
-              <img
-                src="https://unsplash.com/photos/a-woman-holding-a-leaf-over-her-head-4Pu6_OpZcZ4"
-                alt="lady"
-              />
+              <img src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?w=826&t=st=1701066185~exp=1701066785~hmac=2736e7d8a11ed977ce8e5367e6a890220b08ef8dc0c5478c5b72867cccc7eb49" alt="fsdggreeww"></img>
             </div>
           </div>
         </section>
