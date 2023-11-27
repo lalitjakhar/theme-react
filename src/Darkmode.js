@@ -14,9 +14,9 @@ const Darkmode = () => {
   return (
     <>
       <header>
-        <a href="" alt="logo">
+        <button type="button" onClick={toggleTheme}>
           Abcd Efgh Ijkl
-        </a>
+        </button>
         <nav>
           <ul>
             <li>Home</li>
@@ -40,13 +40,13 @@ const Darkmode = () => {
                 fhgfdbhfdfd gfdhsgfdh f fd fds fdshfdfds
                 fdfffghdffghdffghfdfgfhdfhcdc dfhvdbhvbvhcdv cbv dfdf nhdfv
               </p>
-              <a href="#" className="btn" onClick={toggleTheme}>
+              <button type="button" className="btn" onClick={toggleTheme}>
                 Toggle Mode
-              </a>
+              </button>
             </div>
             <div className="hero-section-image">
               <img
-                href="https://unsplash.com/photos/a-woman-holding-a-leaf-over-her-head-4Pu6_OpZcZ4"
+                src="https://unsplash.com/photos/a-woman-holding-a-leaf-over-her-head-4Pu6_OpZcZ4"
                 alt="lady"
               />
             </div>
